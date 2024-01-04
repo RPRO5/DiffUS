@@ -1,2 +1,2 @@
 # DiffUS
-# Denoising Ultrasound Echocardiography with an Improved Diffusion Model
+# Denoising Ultrasound with an Improved Diffusion Model
