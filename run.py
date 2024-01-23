@@ -3,7 +3,7 @@ import sys
 
 from src.denoising_diffusion_pytorch import GaussianDiffusion
 from src.improved_denoising_diffusion_pytorch import (Improved_Diffusion,
-                                                      Trainer, Unet, UnetRes,
+                                                      Trainer, Unet,
                                                       set_seed)
 
 # Code will be upload
