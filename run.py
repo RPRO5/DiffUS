@@ -74,7 +74,7 @@ else:
         objective=objective,
         test_res_or_noise = test_res_or_noise
     )
-    diffusion = ResidualDiffusion(
+    diffusion = Diffusion(
         model,
         image_size=image_size,
         timesteps=1000,           # number of steps
@@ -98,7 +98,6 @@ trainer = Trainer(
     gradient_accumulate_every=2,    # gradient accumulation steps
     ema_decay=0.995,                # exponential moving average decay
     amp=False,                        # turn on mixed precision
-    convert_image_to="RGB",
     condition=condition,
     save_and_sample_every=save_and_sample_every,
     equalizeHist=False,
