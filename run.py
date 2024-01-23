@@ -2,7 +2,7 @@ import os
 import sys
 
 from src.denoising_diffusion_pytorch import GaussianDiffusion
-from src.residual_denoising_diffusion_pytorch import (Diffusion,
+from src.improved_denoising_diffusion_pytorch import (Improved_Diffusion,
                                                       Trainer, Unet, UnetRes,
                                                       set_seed)
 
